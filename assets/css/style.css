@@ -1,4 +1,3 @@
-
 /* .navbar {
     background-color: black;
     padding-top: 15px;
@@ -11,75 +10,78 @@
     font-size: 30px;
     letter-spacing: 5px;
   }  */
-  .top-header { 
-	width: 100%; 
-    height: 200px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-	background-image: url("https://pikwizard.com/photos/mountain-over-looking-photo--d3385e59391985a157dbaf26a5971ed0-m.jpg"); 
-	background-size: cover; 
-	background-position: center; 
-} 
- /* black header without photo */
+.top-header {
+  width: 100%;
+  height: 200px;
+  margin-top: -20px;
+  /* margin-bottom: 20px; */
+  background-image: url("../bisonGrazing.jpeg");
+  background-size: cover;
+  background-position: 0% 60%;
+}
+/* black header without photo */
 /* .top-header > h1 { 
 	color: white; 
 	background-color: rgba(0,0,0,0.3); 
 	padding: 2em 1em; 
 	font-family: sans-serif; 
 }  */
-  
-  body {
-    font-family: 'Crimson Pro', serif;
-    font-size: 18px;
-    background-color:rgb(209, 206, 194);
-    font-size: 16px;
-    line-height: 1;
-    margin-top: 20px;
-  }
-  
-  h1 {
-      font-size: 65px;
-      font-weight: 200;
-      text-align: center;
-      position: relative;
-      transform: translate(0, 100%) 
-  } 
 
-  #weather-header {
-    text-decoration: underline;
-  }
-  
+body {
+  font-family: "Crimson Pro", serif;
+  font-size: 18px;
+  background-color: rgb(209, 206, 194);
+  font-size: 16px;
+  line-height: 1;
+  margin-top: 20px;
+}
 
-  #icon-bg {
-    background-color: grey;
-    width: 50px;
-  }
-  
-  .hide {
-    display: none;
-  }
+h1 {
+  font-size: 65px;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  transform: translate(0, 100%);
+}
 
-  .carousel-inner img {
-    object-fit: contain;
-    object-position: center;
-    height: 50vh;
-   
-  }
+.container {
+  margin-left: 0px;
+}
+#weather-header {
+  text-decoration: underline;
+}
 
-  .carousel-item {
-    display: inline-block
-  }
-  
-  
-  #parkSelector {
-      margin-left: 90px;
-      padding-top: 50px;
-  }
-  
-  #userSelections {
-      background-color: rgb(209, 206, 194);
-      height: 250px;
-      padding-right: 50px;
-  }  
-  
- 
+#icon-bg {
+  background-color: grey;
+  width: 50px;
+}
+#info-container {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.hide {
+  display: none;
+}
+
+.carousel-inner img {
+  object-fit: contain;
+  object-position: center;
+  height: 50vh;
+}
+
+.carousel-item {
+  display: inline-block;
+}
+
+#parkSelector {
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+#userSelections {
+  background-color: rgb(209, 206, 194);
+  height: 250px;
+  padding-right: 50px;
+}
