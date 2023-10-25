@@ -35,4 +35,4 @@ https://opensource.org/licenses/MIT
 
 ## Deployed Application
 
-![link to deployed application](https://marysgreenwood.github.io/Hike-Planner/)
+[https://marysgreenwood.github.io/Hike-Planner/](https://marysgreenwood.github.io/Hike-Planner/)
