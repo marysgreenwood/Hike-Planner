@@ -22,7 +22,7 @@ Hit submit and select an option from the results list.
 [Tony Gray](https://github.com/TGray95) --API fetch requests, park data rendering\
 [Mary Greenwood](https://github.com/marysgreenwood) --API fetch requests, search history\
 [Lisa Walsh](https://github.com/Lwalsh2022) --Formatting, instructions module
-[Ashley Owens] --banner photo
+Ashley Owens --photo, bison grazing, Grand Teton National Park
 
 ## License
 
@@ -34,5 +34,3 @@ https://opensource.org/licenses/MIT
 ![Alt Screenshot of application running](./assets/screenshot1.jpg)
 
 ## Deployed Application
-
-https://zellis117.github.io/Team-Fabulous-P1-API-Application/

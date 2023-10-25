@@ -264,3 +264,5 @@ updateDate();
 showSearchHistory();
 submit.addEventListener("click", getParkData);
 submit.addEventListener("click", savePark);
+
+
