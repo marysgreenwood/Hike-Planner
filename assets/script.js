@@ -33,11 +33,6 @@ function showElement(elmt) {
   }
 }
 
-//Call to weather API to get forecast
-var getWeatherData = function (park) {
-  //Weather API stuff
-};
-
 //Call to park API to get park info
 var getParkData = function (event) {
   event.preventDefault();
@@ -97,7 +92,6 @@ var getParkData = function (event) {
             console.log(parkCode);
           });
           x.addEventListener("click", getParkById);
-          x.addEventListener("click", getFiveDay);
         }
       });
     // .catch(function (error) {
@@ -125,6 +119,7 @@ var getParkById = function (event) {
       parkLat = data.data[0].latitude;
       parkLon = data.data[0].longitude;
       console.log(parkLat, parkLon);
+      getFiveDay();
       parkName.innerHTML = data.data[0].fullName;
       parkLocation.innerHTML =
         "<strong>Address:</strong><br>" +
@@ -171,7 +166,7 @@ var getFiveDay = function () {
     "&lon=" +
     parkLon +
     "&units=imperial&appid=44ff41a4d8b49abe43f662ec93cbb1a6";
-
+  console.log(fiveDayApi);
   fetch(fiveDayApi)
     .then(function (response) {
       return response.json();
@@ -264,5 +259,3 @@ updateDate();
 showSearchHistory();
 submit.addEventListener("click", getParkData);
 submit.addEventListener("click", savePark);
-
-
